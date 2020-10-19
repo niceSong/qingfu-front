@@ -1,0 +1,90 @@
+.full-line{
+  display: inline-block;
+  width: 100%;
+  border-top: 2px solid #666699 ;
+}
+
+.I-title{
+  font-size: 30px;         /*字体大小*/
+  margin-top: 50px;        /*上边距*/
+  text-align: left;        /*左对齐*/
+  left: -5%;
+  text-indent: 2em;        /*首行缩进*/
+  line-height:32px;        /*行间距*/
+  position: relative;      /*位置*/
+  font-family: Helvetica;      /*字体*/
+  color: #000000;          /*字色*/
+}
+.II-title{
+  font-size: 25px;         /*字体大小*/
+  text-align: left;        /*左对齐*/
+  left: -4%;
+  text-indent: 2em;        /*首行缩进*/
+  line-height:32px;        /*行间距*/
+  position: relative;      /*位置*/
+  font-family: Arial;      /*字体*/
+  color: #000000;          /*字色*/
+}
+.III-title{
+  font-size: 20px;         /*字体大小*/
+  text-align: left;        /*左对齐*/
+  left: -4%;
+  text-indent: 2em;        /*首行缩进*/
+  line-height:32px;        /*行间距*/
+  position: relative;      /*位置*/
+  font-family: Arial;      /*字体*/
+  color: #000000;          /*字色*/
+}
+.text{
+  font-size: 16px;         /*字体大小*/
+  z-index: 10;
+  text-align: left;        /*左对齐*/
+  left: 19px;              /*右边移x*/
+  text-indent: 2em;        /*首行缩进*/
+  line-height:24px;        /*行间距*/
+  position: relative;      /*位置*/
+  font-family: Arial;      /*字体*/
+  color: #555555;          /*字色*/
+}
+.button {
+  padding:6px 32px;
+  background-color: #cccccc;
+  color: #000000;
+  border: 2px solid #ffffff;
+}
+
+.button:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/*.weixin-img{*/
+/*  display: block;*/
+/*  width: 30px;*/
+/*  height: 25px;*/
+/*  position: relative;*/
+/*  background: url('../contact/weixin.png');*/
+/*  vertical-align: middle;*/
+/*  display: inline-block;*/
+/*  background-size: 100% 100%;*/
+/*}*/
+/*.phone-img{*/
+/*  display: block;*/
+/*  width: 30px;*/
+/*  height: 25px;*/
+/*  position: relative;*/
+/*  background: url('../contact/pthone.png') no-repeat;*/
+/*  vertical-align:middle;*/
+/*  display: inline-block;*/
+/*  background-size: 100% 100%;*/
+/*}*/
+/*.email-img{*/
+/*  display: block;*/
+/*  width: 30px;*/
+/*  height: 25px;*/
+/*  position: relative;*/
+/*  background: url('../contact/email.jpg') no-repeat;*/
+/*  vertical-align:middle;*/
+/*  display: inline-block;*/
+/*  background-size: 100% 100%;*/
+/*}*/

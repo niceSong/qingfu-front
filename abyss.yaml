@@ -1,0 +1,15 @@
+name: mocker-console-frontend
+build:
+  beta:
+    - npm install --ignore-scripts
+    - npm run build
+    - python3 env_writer.py  dist/abcdefg.html
+    - docker build -t mocker-console-frontend:latest .
+  release:
+    - npm install --ignore-scripts
+    - npm run build
+    - python3 env_writer.py  dist/abcdefg.html
+    - docker build -t mocker-console-frontend:latest .
+email:
+  - zhuchenxi@jinuo.me
+  - dengjingwen@jinuo.me
